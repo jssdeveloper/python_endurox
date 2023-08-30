@@ -3,7 +3,6 @@ import time
 from flask import jsonify
 
 def transactionObject():
-
     
     data = {
         "access_token":random.randint(100000000000,9000000000000),
@@ -113,25 +112,5 @@ def transactionObject():
         "test_field38": "value18",
         "test_field39": "value19",
         "test_field40": "value20",
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
     return jsonify(data)
